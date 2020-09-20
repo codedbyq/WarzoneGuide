@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_20_212359) do
+ActiveRecord::Schema.define(version: 2020_09_20_224847) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "weapons", force: :cascade do |t|
     t.string "name", null: false
-    t.string "type", null: false
+    t.string "weapon_type", null: false
     t.integer "mag_size", null: false
     t.integer "ads_speed", null: false
     t.float "reload_speed", null: false
