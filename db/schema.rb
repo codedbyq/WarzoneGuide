@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_20_210440) do
+ActiveRecord::Schema.define(version: 2020_09_20_212359) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2020_09_20_210440) do
     t.string "type", null: false
     t.integer "mag_size", null: false
     t.integer "ads_speed", null: false
-    t.integer "reload_speed", null: false
+    t.float "reload_speed", null: false
     t.integer "rounds_per_min", null: false
     t.integer "base_range", null: false
     t.integer "base_damage_head", null: false

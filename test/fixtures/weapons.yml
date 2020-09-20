@@ -7,7 +7,7 @@
 #  type                :string           not null
 #  mag_size            :integer          not null
 #  ads_speed           :integer          not null
-#  reload_speed        :integer          not null
+#  reload_speed        :float            not null
 #  rounds_per_min      :integer          not null
 #  base_range          :integer          not null
 #  base_damage_head    :integer          not null
