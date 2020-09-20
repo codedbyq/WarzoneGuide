@@ -4,7 +4,7 @@
 #
 #  id                  :bigint           not null, primary key
 #  name                :string           not null
-#  type                :string           not null
+#  weapon_type         :string           not null
 #  mag_size            :integer          not null
 #  ads_speed           :integer          not null
 #  reload_speed        :float            not null
