@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/codedbyq/WarzoneGuide/issues"
   },
-  "homepage": "https://github.com/codedbyq/WarzoneGuide#readme"
+  "homepage": "https://github.com/codedbyq/WarzoneGuide#readme",
+  "devDependencies": {
+    "redux-logger": "3.0.6"
+  }
 }
